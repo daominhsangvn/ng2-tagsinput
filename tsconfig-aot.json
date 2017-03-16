@@ -2,14 +2,20 @@
   "compilerOptions": {
     "target": "es5",
     "module": "es2015",
-    "experimentalDecorators": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": false,
     "declaration": true,
+    "sourceMap": false,
     "lib": ["es6", "dom"]
   },
   "files": [
-    "index.ts"
+    "index.ts",
+    "ng2-tagsinput.ts",
+    "lib/ng2-tagsinput.ts",
+    "lib/ng2-tagsinput-item.ts"
   ],
   "angularCompilerOptions": {
     "genDir": "factories",
