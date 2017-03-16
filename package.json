@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:aot": "ngc -p tsconfig-aot.json"
+    "prepublish": "ngc -p tsconfig-aot.json"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/xmaestro/ng2-tagsinput#readme",
   "dependencies": {
-    "@angular/core": "^2.4.9"
   },
   "devDependencies": {
     "@angular/common": "^2.4.9",
