@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./node_modules/.bin/ngc"
+    "prepublish": "./node_modules/.bin/ngc",
+    "build:aot": "ngc -p tsconfig-aot.json"
   },
   "repository": {
     "type": "git",
